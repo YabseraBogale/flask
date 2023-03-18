@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(41, 40, 40);
+}
+.signup{
+    display: grid;
+    place-items: center;
+    color:aliceblue;
+    top:100%;
+}
+form{
+    display: grid;
+    place-items: initial;
+}
+button{
+    position: relative;
+    top:80%;
+}
