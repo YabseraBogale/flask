@@ -1,8 +1,24 @@
 *{
-    padding: 15px;
+    padding: 10px;
 }
 
 .working{
     border: 2px solid black;
     margin:5px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    border:2px solid black;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+a:hover{
+    background-color: black;
+    color:aliceblue;
+    border: 2px solid black;
+    border-radius: 2px;
+
 }

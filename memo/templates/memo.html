@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='memo.css')}}">
+    <title>Adding Memo</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h2>
+            Adding Memo
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    title
+                </td>
+                <td>
+                    <input type="text" name="title" id="title" required placeholder="Title">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date
+                </td>
+                <td>
+                    <input type="date" name="date" id="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Starting Hour
+                </td>
+                <td>
+                    <input value="13:00"type="time" name="startHour" id="startHour">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    End Hour
+                </td>
+                <td>
+                    <input type="time" name="endHour" id="endHour">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Note
+                </td>
+                <td>
+                    <textarea name="note" id="note" maxlength="240" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="submit">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+
+</html>

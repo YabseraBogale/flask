@@ -1,0 +1,15 @@
+*{
+    padding:10px
+}
+textarea{
+    resize: none;
+}
+
+form{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin-left: 20%;
+    
+}
